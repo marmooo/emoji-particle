@@ -2,8 +2,7 @@
 
 Fireworks and popcorn particle effects using emojis.
 
-![alt screenshot](screenshot.webp)
-![alt screenshot](screenshot.gif)
+![alt screenshot](screenshot.webp) ![alt screenshot](screenshot.gif)
 
 ## Demo
 
