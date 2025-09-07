@@ -3,7 +3,7 @@ import { build, emptyDir } from "@deno/dnt";
 await emptyDir("./npm");
 
 await build({
-  entryPoints: ["./emoji-particle.ts"],
+  entryPoints: ["./src/emoji-particle.js"],
   outDir: "./npm",
   typeCheck: false,
   shims: {
