@@ -5,5 +5,8 @@
   "imports": {
     "@deno/dnt": "jsr:@deno/dnt@^0.42.3",
     "esbuild": "npm:esbuild@^0.25.9"
+  },
+  "tasks": {
+    "build": "deno run --allow-read=emoji-particle.ts --allow-write=src/emoji-particle.js --allow-env --allow-run build.ts"
   }
 }

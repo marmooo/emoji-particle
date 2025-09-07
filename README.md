@@ -11,6 +11,7 @@ Fireworks and popcorn particle effects using emojis.
 ## Build
 
 ```
+deno task build
 bash build.sh
 ```
 
