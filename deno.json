@@ -3,6 +3,7 @@
     "lib": ["deno.window", "dom", "dom.iterable", "dom.asynciterable"]
   },
   "imports": {
-    "@deno/dnt": "jsr:@deno/dnt@^0.42.3"
+    "@deno/dnt": "jsr:@deno/dnt@^0.42.3",
+    "esbuild": "npm:esbuild@^0.25.9"
   }
 }
