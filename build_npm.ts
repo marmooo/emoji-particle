@@ -11,7 +11,7 @@ await build({
   },
   package: {
     name: "emoji-particle",
-    version: "0.0.1",
+    version: "0.0.2",
     description: "Fireworks and popcorn particle effects using emojis.",
     license: "MIT",
     main: "emoji-particle.ts",
