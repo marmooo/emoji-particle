@@ -1,3 +1,5 @@
+import { createWorker } from "./emoji-particle.js";
+
 function loadConfig() {
   if (localStorage.getItem("darkMode") == 1) {
     document.documentElement.setAttribute("data-bs-theme", "dark");
@@ -153,7 +155,7 @@ function initEmojiParticle() {
   document.body.prepend(canvas);
 
   const offscreen = canvas.transferControlToOffscreen();
-  const worker = new Worker("emoji-particle.js");
+  const worker = createWorker();
   worker.postMessage({ type: "init", canvas: offscreen }, [offscreen]);
 
   globalThis.addEventListener("resize", () => {

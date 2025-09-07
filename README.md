@@ -22,8 +22,10 @@ Make sure to not get a 3D context from the canvas before calling
 transferControlToOffscreen(), otherwise it will throw an error.
 
 ```js
+import { createWorker } from "emoji-particle";
+
 const offscreen = canvas.transferControlToOffscreen();
-const worker = new Worker("emoji-particle.js");
+const worker = createWorker();
 worker.postMessage({ type: "init", canvas: offscreen }, [offscreen]);
 ```
 
