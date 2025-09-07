@@ -138,5 +138,5 @@ MIT
 ## Attribution
 
 `src/favicon/favicon.svg` is cloned from
-[Blobmoji](https://github.com/C1710/blobmoji) is licensed under the
+[Blobmoji](https://github.com/C1710/blobmoji) licensed under the
 [Apache-2.0](https://github.com/C1710/blobmoji/blob/main/LICENSE)
