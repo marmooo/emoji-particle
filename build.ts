@@ -15,7 +15,7 @@ export function createWorker() {
     JSON.stringify(workerCode)
   }], { type: "text/javascript" });
   const url = URL.createObjectURL(blob);
-  const worker = new Worker(url, { type: "module" });
+  const worker = new Worker(url);
   URL.revokeObjectURL(url);
   return worker;
 }
